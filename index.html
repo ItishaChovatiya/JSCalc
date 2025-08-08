@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater Task</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="main_div">
+        <div class="display_space">
+            <p class="clickData"></p>
+        </div>
+        <div class="btn_div">
+            <button onclick="ClearSingleElement()">X</button>
+            <button onclick="ClearAll()">CA</button>
+            <button>dis</button>
+            <button onclick="NumberHandler(1)">1</button>
+            <button onclick="NumberHandler(2)">2</button>
+            <button onclick="ActionHandler('+')">+</button>
+            <button onclick="NumberHandler(3)">3</button>
+            <button onclick="NumberHandler(4)">4</button>
+            <button onclick="ActionHandler('-')">-</button>
+            <button onclick="NumberHandler(5)">5</button>
+            <button onclick="NumberHandler(6)">6</button>
+            <button onclick="ActionHandler('*')">*</button>
+            <button onclick="NumberHandler(7)">7</button>
+            <button onclick="NumberHandler(8)">8</button>
+            <button onclick="ActionHandler('/')">/</button>
+            <button onclick="NumberHandler(9)">9</button>
+            <button onclick="NumberHandler(0)">0</button>
+            <button onclick="Calculate()">=</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.main_div {
+    margin: auto;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.display_space {
+    font-size: 34px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    padding: 15px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.btn_div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+}
